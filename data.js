@@ -11,7 +11,7 @@
 // ============================================================
 
 const STARTUP = {
-  name: "wefix",
+  name: "weFix'",
   tagline: "Borrow the tool. Finish the project.",
   pitch: "Find trusted tools nearby, reserve them for the exact dates you need, and keep useful gear in use instead of gathering dust."
 };
