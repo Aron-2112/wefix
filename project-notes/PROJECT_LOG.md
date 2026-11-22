@@ -20,6 +20,14 @@ Keep this up to date as you go — a few lines per work session is enough. It's 
 
 Copy this block for each session.
 
+### Session — 2026-11-22 — driver: AI assistant
+
+- **Goal for this session:** Summarize the work completed and record it in the project log.
+- **Key prompts we gave Copilot:** Review the session history and add a clear summary of the wefix prototype work to this log.
+- **What worked:** Confirmed that the project includes a working fake signup flow, searchable and saveable tool listings, a date-range calendar with calculated totals, an 8% borrower service fee, and supporting business-case documentation.
+- **What broke, and how we fixed it:** No project changes or failures occurred during this summary pass; the prototype was already assembled and JavaScript syntax had been verified.
+- **Committed?** no — awaiting review
+
 ### Session — [date] — driver: [first name]
 
 - **Goal for this session:**
