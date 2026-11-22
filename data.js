@@ -11,16 +11,18 @@
 // ============================================================
 
 const STARTUP = {
-  name: "YourStartup",
-  tagline: "One sentence that says what your startup does.",
-  pitch: "Who is your customer, what problem do they have, and why is your solution better than what they use today?"
+  name: "wefix",
+  tagline: "Borrow the tool. Finish the project.",
+  pitch: "Find trusted tools nearby, reserve them for the exact dates you need, and keep useful gear in use instead of gathering dust."
 };
 
 const LISTINGS = [
-  { id: 1, name: "Sample listing A", category: "Category 1", description: "A short description of this item." },
-  { id: 2, name: "Sample listing B", category: "Category 2", description: "A short description of this item." },
-  { id: 3, name: "Sample listing C", category: "Category 1", description: "A short description of this item." },
-  { id: 4, name: "Sample listing D", category: "Category 3", description: "A short description of this item." },
-  { id: 5, name: "Sample listing E", category: "Category 2", description: "A short description of this item." },
-  { id: 6, name: "Sample listing F", category: "Category 3", description: "A short description of this item." }
+  { id: 1, name: "DeWalt cordless drill", category: "Power tools", description: "20V drill with two batteries, charger, and a full bit set.", price: 12, owner: "Maya", distance: "1.2 km", rating: 4.9 },
+  { id: 2, name: "Portable tile saw", category: "Renovation", description: "Compact wet saw for small tile and stone jobs.", price: 18, owner: "Jon", distance: "2.4 km", rating: 4.8 },
+  { id: 3, name: "Pressure washer", category: "Outdoor", description: "Electric washer with three nozzles and 25 ft hose.", price: 15, owner: "Alex", distance: "0.8 km", rating: 4.9 },
+  { id: 4, name: "Orbital sander", category: "Woodworking", description: "Five-inch sander with dust bag and assorted sandpaper.", price: 8, owner: "Sam", distance: "3.1 km", rating: 4.7 },
+  { id: 5, name: "Extension ladder", category: "Ladders", description: "Lightweight aluminum ladder extending to 20 feet.", price: 14, owner: "Taylor", distance: "1.7 km", rating: 5.0 },
+  { id: 6, name: "Rototiller", category: "Garden", description: "Mid-size electric tiller for garden beds and small plots.", price: 22, owner: "Riley", distance: "4.0 km", rating: 4.8 },
+  { id: 7, name: "Paint sprayer", category: "Painting", description: "Easy-clean HVLP sprayer, ideal for furniture and fences.", price: 11, owner: "Casey", distance: "2.9 km", rating: 4.6 },
+  { id: 8, name: "Shop vacuum", category: "Cleaning", description: "Six-gallon wet/dry vacuum with crevice and floor heads.", price: 9, owner: "Morgan", distance: "1.5 km", rating: 4.9 }
 ];

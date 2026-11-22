@@ -2,13 +2,21 @@
 
 Keep this up to date as you go — a few lines per work session is enough. It's much harder to reconstruct at the end.
 
-**Team name:**
-**Startup name:**
+**Team name:** Wefix Team
+**Startup name:** wefix
 **Live site link:**
 
 ---
 
 ## Work sessions
+
+### Session — 2026-11-22 — driver: AI assistant
+
+- **Goal for this session:** Build the complete interactive homepage and prototype flows for a tool-sharing startup.
+- **Key prompts we gave Copilot:** Create the wefix signup, tool marketplace, date-calendar booking, and revenue-model prototype.
+- **What worked:** A dependency-free HTML prototype with search, saved listings, fake signup, date-range selection, booking totals, and a 8% borrower service fee.
+- **What broke, and how we fixed it:** We verified JavaScript syntax and the local preview server.
+- **Committed?** no — awaiting review
 
 Copy this block for each session.
 

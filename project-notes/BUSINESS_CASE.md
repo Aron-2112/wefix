@@ -4,10 +4,10 @@ Your prototype shows *what* the product looks like. This document explains *why*
 
 ## 1. The idea
 
-- **Customer:** Who exactly is it for?
-- **Problem:** What problem do they have today, and how do they solve it now?
-- **Solution:** What does your product do differently or better?
-- **Revenue:** How does the company make money?
+- **Customer:** Homeowners, renters, students, and DIY enthusiasts who only need a tool for a short project.
+- **Problem:** Buying specialized tools is expensive and leaves them unused. Borrowing from friends is limited and informal.
+- **Solution:** wefix connects local tool owners and borrowers, lets users select rental dates, and provides ratings and a consistent booking flow.
+- **Revenue:** The borrower pays an 8% service fee on each successful rental. A future subscription plan could offer premium placement and unlimited listings.
 
 ## 2. Where IT creates value
 

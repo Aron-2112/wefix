@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>YourStartup</title>
-  <meta name="description" content="A student startup prototype for BSAD 281.">
+  <title>wefix</title>
+  <meta name="description" content="Borrow tools nearby and finish your next project.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,12 +14,14 @@
        Each link points to a "view" further down the page (#home, #explore, #about).
        ========================================================= -->
   <header class="site-header">
-    <a class="brand" href="#home" id="brand-name">YourStartup</a>
+    <a class="brand" href="#home" id="brand-name">wefix</a>
     <nav aria-label="Main">
       <a href="#home">Home</a>
       <a href="#explore">Explore</a>
+      <a href="#business">How we earn</a>
       <a href="#about">About</a>
     </nav>
+    <button class="button signup-button" type="button" id="open-signup">Sign up</button>
   </header>
 
   <main>
@@ -29,27 +31,27 @@
          ======================================================= -->
     <section id="home" data-view>
       <div class="hero">
-        <p class="eyebrow">Prototype</p>
-        <h1 id="tagline">One sentence that says what your startup does.</h1>
-        <p class="lead" id="pitch">
-          Who is your customer, what problem do they have, and why is your
-          solution better than what they use today?
-        </p>
-        <a class="button" href="#explore">See it in action</a>
+        <p class="eyebrow">Tools near you</p>
+        <h1 id="tagline">Borrow the tool. Finish the project.</h1>
+        <p class="lead" id="pitch">Find trusted tools nearby, reserve them for the exact dates you need, and keep useful gear in use instead of gathering dust.</p>
+        <div class="hero-actions">
+          <a class="button" href="#explore">Find a tool</a>
+          <button class="button secondary" type="button" id="hero-signup">Join wefix</button>
+        </div>
       </div>
 
       <div class="steps">
         <div class="card">
-          <h2>1. Step one</h2>
-          <p>Describe the first thing a customer does.</p>
+          <h2>1. Find it nearby</h2>
+          <p>Search available tools in your neighborhood.</p>
         </div>
         <div class="card">
-          <h2>2. Step two</h2>
-          <p>Describe what happens next.</p>
+          <h2>2. Pick your dates</h2>
+          <p>Choose a start and end date in the calendar.</p>
         </div>
         <div class="card">
-          <h2>3. Step three</h2>
-          <p>Describe the result the customer gets.</p>
+          <h2>3. Get to work</h2>
+          <p>Arrange pickup and return with the tool owner.</p>
         </div>
       </div>
     </section>
@@ -58,8 +60,13 @@
          VIEW 2: EXPLORE — a list built from the fake data in data.js.
          ======================================================= -->
     <section id="explore" data-view hidden>
-      <h1>Explore</h1>
-      <p class="muted">These examples are fake. They come from <code>data.js</code>.</p>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Local inventory</p>
+          <h1>Tools available near you</h1>
+        </div>
+        <div class="calendar-cta" id="date-summary">No dates selected</div>
+      </div>
 
       <label class="search">
         <span>Search</span>
@@ -72,15 +79,112 @@
     </section>
 
     <!-- =======================================================
+         VIEW 4: CALENDAR + PRICING — a fake booking flow.
+         ======================================================= -->
+    <section id="calendar" data-view hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Plan your project</p>
+          <h1>Choose rental dates</h1>
+        </div>
+      </div>
+      <div class="booking-layout">
+        <div class="booking-calendar">
+          <div class="calendar-title">
+            <button type="button" class="icon-button" id="previous-month" aria-label="Previous month">←</button>
+            <h2 id="month-title"></h2>
+            <button type="button" class="icon-button" id="next-month" aria-label="Next month">→</button>
+          </div>
+          <div class="weekday-row" aria-hidden="true">
+            <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+          </div>
+          <div class="calendar-grid" id="calendar-grid"></div>
+        </div>
+        <aside class="booking-summary" id="booking-summary">
+          <p class="eyebrow">Your booking</p>
+          <h2 id="booking-tool-name">Select a tool</h2>
+          <div class="summary-row"><span>Dates</span><strong id="summary-dates">Not selected</strong></div>
+          <div class="summary-row"><span>Rental</span><strong id="summary-rental">$0</strong></div>
+          <div class="summary-row"><span>Service fee</span><strong id="summary-fee">$0</strong></div>
+          <div class="summary-total"><span>Total</span><strong id="summary-total">$0</strong></div>
+          <button class="button full-width" type="button" id="request-booking" disabled>Request booking</button>
+          <p class="muted small" id="booking-message"></p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         VIEW: BUSINESS — revenue model.
+         ======================================================= -->
+    <section id="business" data-view hidden>
+      <p class="eyebrow">A simple revenue model</p>
+      <h1>One booking at a time</h1>
+      <p class="lead">wefix charges a small service fee to keep listings, payments, support, and trust tools running.</p>
+      <div class="pricing-grid">
+        <div class="card price-card">
+          <h2>For borrowers</h2>
+          <strong class="price">8%</strong>
+          <p>Service fee per successful rental.</p>
+        </div>
+        <div class="card price-card">
+          <h2>For lenders</h2>
+          <strong class="price">Free</strong>
+          <p>List tools and earn from gear you already own.</p>
+        </div>
+        <div class="card price-card">
+          <h2>Future plan</h2>
+          <strong class="price">$5/mo</strong>
+          <p>Optional wefix Pro for unlimited listings and priority placement.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
          VIEW 3: ABOUT — your team and your story.
          ======================================================= -->
     <section id="about" data-view hidden>
-      <h1>About us</h1>
-      <p>Tell the story of why your team started this company.</p>
-      <p>Use first names only, or no names at all — this site is public.</p>
+      <p class="eyebrow">Why wefix</p>
+      <h1>More projects. Less waste.</h1>
+      <p class="lead">wefix connects people who need tools with neighbors who have tools sitting idle. It makes home improvement more affordable while helping useful equipment get a longer life.</p>
+      <div class="steps">
+        <div class="card">
+          <h2>For borrowers</h2>
+          <p>Save money, avoid clutter, and use the right tool for the job.</p>
+        </div>
+        <div class="card">
+          <h2>For lenders</h2>
+          <p>Turn occasional tools into neighborhood income.</p>
+        </div>
+        <div class="card">
+          <h2>For the network</h2>
+          <p>Every listing makes wefix more useful to everyone nearby.</p>
+        </div>
+      </div>
     </section>
 
   </main>
+
+  <dialog id="signup-dialog" class="signup-dialog">
+    <form id="signup-form" method="dialog">
+      <button class="dialog-close" type="button" id="close-signup" aria-label="Close">×</button>
+      <p class="eyebrow">Join your neighborhood</p>
+      <h2>Create a wefix account</h2>
+      <label>
+        <span>First name</span>
+        <input type="text" id="signup-name" autocomplete="given-name" required>
+      </label>
+      <label>
+        <span>Email</span>
+        <input type="email" autocomplete="email" required>
+      </label>
+      <label>
+        <span>Postal code</span>
+        <input type="text" inputmode="numeric" autocomplete="postal-code" maxlength="7" required>
+      </label>
+      <button class="button full-width" type="submit">Create free account</button>
+      <p class="muted small">Prototype only. No real account or personal data is created.</p>
+    </form>
+  </dialog>
 
   <!-- Keep this footer. Your site must say it is a student project. -->
   <footer class="site-footer">
