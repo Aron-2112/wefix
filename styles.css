@@ -4,12 +4,12 @@
    ============================================================ */
 
 :root {
-  --brand: #167a5b;
-  --brand-dark: #105a44;
+  --brand: #173b63;
+  --brand-dark: #102a47;
   --accent: #f5bd4f;
-  --text: #19332b;
-  --muted: #66756f;
-  --background: #f4f7f5;
+  --text: #1f2f43;
+  --muted: #66717d;
+  --background: #f4f6f8;
   --surface: #ffffff;      /* cards */
   --border: #dde1ea;
   --radius: 12px;
@@ -227,11 +227,11 @@ h1 { line-height: 1.2; }
   font: inherit;
 }
 .calendar-day:hover { background: var(--background); }
-.calendar-day.other-month { color: #adb7b2; }
+.calendar-day.other-month { color: #aeb8c3; }
 .calendar-day.selected { background: var(--brand); color: #fff; }
-.calendar-day.in-range { background: #dfeee7; color: var(--brand-dark); }
+.calendar-day.in-range { background: #e2eaf2; color: var(--brand-dark); }
 .calendar-day.today { border-color: var(--brand); }
-.calendar-day:disabled { color: #bac2be; cursor: not-allowed; }
+.calendar-day:disabled { color: #bac2ca; cursor: not-allowed; }
 
 .booking-summary h2 { font-size: 1.15rem; }
 .summary-row, .summary-total {
@@ -250,7 +250,7 @@ h1 { line-height: 1.2; }
   font-weight: 700;
 }
 .full-width { width: 100%; margin-top: 12px; }
-.full-width:disabled { background: #aab7b1; cursor: not-allowed; }
+.full-width:disabled { background: #aab5c0; cursor: not-allowed; }
 .small { font-size: 0.82rem; }
 
 .pricing-grid {
@@ -272,9 +272,9 @@ h1 { line-height: 1.2; }
   border: 0;
   border-radius: 16px;
   padding: 0;
-  box-shadow: 0 24px 80px rgba(25, 51, 43, 0.24);
+  box-shadow: 0 24px 80px rgba(31, 47, 67, 0.24);
 }
-.signup-dialog::backdrop { background: rgba(25, 51, 43, 0.55); }
+.signup-dialog::backdrop { background: rgba(31, 47, 67, 0.55); }
 .signup-dialog form { position: relative; padding: 28px; }
 .signup-dialog h2 { margin-top: 8px; }
 .signup-dialog label { display: block; margin: 14px 0; }
