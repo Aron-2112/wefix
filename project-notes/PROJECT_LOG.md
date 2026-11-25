@@ -28,6 +28,14 @@ Copy this block for each session.
 - **What broke, and how we fixed it:** No project changes or failures occurred during this summary pass; the prototype was already assembled and JavaScript syntax had been verified.
 - **Committed?** no — awaiting review
 
+### Session — 2026-11-25 — driver: AI assistant
+
+- **Goal for this session:** Refresh the site with a hand-drawn workshop theme and document a Git pull error.
+- **Key prompts we gave Copilot:** Add sketches of tools and sheds to make the site more engaging; record the Git error and its cause in the project log.
+- **What worked:** Added a warm paper-and-ink color theme and an original, responsive shed-and-tools illustration to the homepage.
+- **What broke, and how we fixed it:** `git pull --tags origin main` failed with `fatal: Need to specify how to reconcile divergent branches.` Git detected that the local and remote branches had diverged, but no pull strategy was configured. Set this repository's `pull.rebase` to `false` so future pulls default to merge; the pull was not retried, so the merge itself is still pending.
+- **Committed?** no — awaiting review
+
 ### Session — [date] — driver: [first name]
 
 - **Goal for this session:**
@@ -44,7 +52,7 @@ Copy this block for each session.
 
 | Date | What went wrong | What we tried | What finally fixed it |
 |---|---|---|---|
-| | | | |
+| 2026-11-25 | `git pull --tags origin main` failed: `fatal: Need to specify how to reconcile divergent branches.` | Git's hint listed merge, rebase, or fast-forward-only strategies. | Configured `pull.rebase=false` in this repository to choose merge for future pulls. The pull has not yet been retried. |
 
 ## What a real version would need
 
