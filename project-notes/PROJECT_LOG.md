@@ -4,7 +4,7 @@ Keep this up to date as you go — a few lines per work session is enough. It's 
 
 **Team name:** Wefix Team
 **Startup name:** wefix
-**Live site link:**
+**Live site link:** https://aron-2112.github.io/wefix/
 
 ---
 
