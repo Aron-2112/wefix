@@ -95,39 +95,61 @@ h1 { line-height: 1.12; }
 .workshop-sketch {
   position: relative;
   margin: 0;
-  padding: 14px 14px 10px;
-  background: #e9dfc9;
-  border: 1px solid #d5c7a9;
-  border-radius: 48% 42% 45% 38% / 10% 12% 9% 12%;
-  transform: rotate(1.2deg);
-  box-shadow: 0 9px 0 rgba(87, 74, 47, 0.08);
+  padding: 12px;
+  overflow: hidden;
+  background: linear-gradient(145deg, #fdfbf4, #eee8d6);
+  border: 1px solid #d9cfb8;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(48, 47, 40, 0.10);
 }
 .workshop-sketch::before {
-  position: absolute;
-  inset: 7px;
-  border: 1px dashed #bda982;
-  border-radius: inherit;
-  content: "";
-  pointer-events: none;
+  display: none;
 }
 .workshop-sketch svg {
   display: block;
   width: 100%;
   color: #315b43;
 }
+.workshop-sketch .page-photo {
+  display: block;
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.field-dollar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-8deg);
+  color: #d5b45c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(7rem, 13vw, 11rem);
+  font-weight: 700;
+  line-height: 1;
+  text-shadow:
+    3px 3px 0 rgba(47, 77, 36, 0.72),
+    -2px -2px 0 rgba(224, 213, 145, 0.58);
+  opacity: 0.92;
+  pointer-events: none;
+}
+.explore-map {
+  height: 220px;
+  margin: 0 0 28px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(48, 47, 40, 0.10);
+}
+.explore-map img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 52%;
+}
 .workshop-sketch .sketch-light { color: #a2652f; }
 .workshop-sketch .tool-sketch { color: #a2652f; }
-.workshop-sketch figcaption {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2px 10px 0;
-  color: #655b46;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.9rem;
-  font-style: italic;
-}
-.sketch-spark { color: #a2652f; font-size: 1.35rem; }
 
 .illustrated-page {
   display: grid;
