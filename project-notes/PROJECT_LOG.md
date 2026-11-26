@@ -30,9 +30,9 @@ Copy this block for each session.
 
 ### Session — 2026-11-25 — driver: AI assistant
 
-- **Goal for this session:** Refresh the site with a hand-drawn workshop theme and document a Git pull error.
-- **Key prompts we gave Copilot:** Add sketches of tools and sheds to make the site more engaging; record the Git error and its cause in the project log.
-- **What worked:** Added a warm paper-and-ink color theme and an original, responsive shed-and-tools illustration to the homepage.
+- **Goal for this session:** Refresh the site with hand-drawn workshop illustrations and document a Git pull error.
+- **Key prompts we gave Copilot:** Add a power-tool collage to the homepage, an unfinished-wood dollar sign to How We Earn, and two hard-hat-wearing neighbors to About; record the Git error and its cause in the project log.
+- **What worked:** Added a warm paper-and-ink color theme, a responsive collage of five power tools, a wood-grain dollar sign, and an illustration of two neighbors wearing yellow hard hats and blue overalls.
 - **What broke, and how we fixed it:** `git pull --tags origin main` failed with `fatal: Need to specify how to reconcile divergent branches.` Git detected that the local and remote branches had diverged, but no pull strategy was configured. Set this repository's `pull.rebase` to `false` so future pulls default to merge; the pull was not retried, so the merge itself is still pending.
 - **Committed?** no — awaiting review
 
