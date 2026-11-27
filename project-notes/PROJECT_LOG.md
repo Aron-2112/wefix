@@ -10,41 +10,45 @@ Keep this up to date as you go — a few lines per work session is enough. It's 
 
 ## Work sessions
 
-### Session — 2026-11-22 — driver: AI assistant
+### 2026-11-22 — Project setup and first prototype
 
-- **Goal for this session:** Build the complete interactive homepage and prototype flows for a tool-sharing startup.
-- **Key prompts we gave Copilot:** Create the wefix signup, tool marketplace, date-calendar booking, and revenue-model prototype.
-- **What worked:** A dependency-free HTML prototype with search, saved listings, fake signup, date-range selection, booking totals, and a 8% borrower service fee.
-- **What broke, and how we fixed it:** We verified JavaScript syntax and the local preview server.
-- **Committed?** no — awaiting review
+- **Goal for this session:** Create the initial weFix website and add the first project-log summary.
+- **Key prompts we gave Copilot:** Build a complete interactive tool-sharing homepage; add signup, marketplace, saved-listings, calendar, booking, and revenue-model features; update the project name and appearance.
+- **What worked:** Established the project structure and a dependency-free HTML, CSS, and JavaScript prototype. Added searchable and saveable tool listings, a fake signup flow, date-range selection, calculated booking totals, an 8% borrower service fee, and supporting business-case and project-log documents.
+- **What broke, and how we fixed it:** No lasting code failure was recorded during this date's work. The existing JavaScript and prototype structure were reviewed and the site name and theme were updated.
+- **Committed?** yes — `Initial commit`, `first version`, `added summary of changes to prject log`, and `changed site name and appearance`
 
-Copy this block for each session.
+### 2026-11-23 — Branding and pricing adjustments
 
-### Session — 2026-11-22 — driver: AI assistant
+- **Goal for this session:** Correct and refine the product name, theme, and prototype pricing.
+- **Key prompts we gave Copilot:** Fix a misspelling in the new site name, then apply the corrected title, theme, and pricing details.
+- **What worked:** Updated the brand name and visual styling consistently across the main page, data, and stylesheets. Adjusted the displayed pricing information and associated prototype copy.
+- **What broke, and how we fixed it:** A misspelling was introduced during the site-name change. It was followed by a correction pass that updated the title and appearance across the affected files.
+- **Committed?** yes — `made a mistake typing in the new site name` and `changed the title, theme, and some pricing details of the site`
 
-- **Goal for this session:** Summarize the work completed and record it in the project log.
-- **Key prompts we gave Copilot:** Review the session history and add a clear summary of the wefix prototype work to this log.
-- **What worked:** Confirmed that the project includes a working fake signup flow, searchable and saveable tool listings, a date-range calendar with calculated totals, an 8% borrower service fee, and supporting business-case documentation.
-- **What broke, and how we fixed it:** No project changes or failures occurred during this summary pass; the prototype was already assembled and JavaScript syntax had been verified.
-- **Committed?** no — awaiting review
+### 2026-11-25 — Live link and visual theme updates
 
-### Session — 2026-11-25 — driver: AI assistant
+- **Goal for this session:** Publish the live-site reference, refresh the visual theme, and record a Git issue.
+- **Key prompts we gave Copilot:** Add the live GitHub Pages link to the project log; change the theme and title; document divergent-branch behavior and a proposed fix.
+- **What worked:** Added the live site URL, updated the main page and CSS theme, and recorded the project work and Git situation.
+- **What broke, and how we fixed it:** `git pull --tags origin main` failed with `fatal: Need to specify how to reconcile divergent branches.` Git had detected divergent local and remote branches. This repository was configured with `pull.rebase=false` so future pulls use merge mode; the pull itself was not retried during the session.
+- **Committed?** yes — `Add live site link to project log`, `Changed theme and title`, a merge commit, and `changed theme and tried to fix errors with divergent branches`
 
-- **Goal for this session:** Refresh the site with hand-drawn workshop illustrations and document a Git pull error.
-- **Key prompts we gave Copilot:** Add a power-tool collage to the homepage, an unfinished-wood dollar sign to How We Earn, and two hard-hat-wearing neighbors to About; record the Git error and its cause in the project log.
-- **What worked:** Added a warm paper-and-ink color theme, a responsive collage of five power tools, a wood-grain dollar sign, and an illustration of two neighbors wearing yellow hard hats and blue overalls.
-- **What broke, and how we fixed it:** `git pull --tags origin main` failed with `fatal: Need to specify how to reconcile divergent branches.` Git detected that the local and remote branches had diverged, but no pull strategy was configured. Set this repository's `pull.rebase` to `false` so future pulls default to merge; the pull was not retried, so the merge itself is still pending.
-- **Committed?** no — awaiting review
+### 2026-11-26 — Finalization and photo assets
 
-### Session — [date] — driver: [first name]
+- **Goal for this session:** Finalize the page layout and replace placeholder imagery with project photographs.
+- **Key prompts we gave Copilot:** Continue refining the interface and finalize the current theme and page changes; add and integrate the tool, workshop, map, drill, and treasure-chest images.
+- **What worked:** Revised the homepage and supporting sections, adjusted styles, and added five image assets. Updated the project log and CSS to improve the final presentation.
+- **What broke, and how we fixed it:** No separate runtime failure was recorded in the commits. The finalization pass served as a visual refinement and asset-integration pass rather than a debugging session.
+- **Committed?** yes — `trying to finalize changes` and `changed photos on website`
 
-- **Goal for this session:**
-- **Key prompts we gave Copilot** (paste the important ones):
-  1.
-  2.
-- **What worked:**
-- **What broke, and how we fixed it:**
-- **Committed?** yes / no — commit message:
+### 2026-11-27 — Business-case update and session-log summary
+
+- **Goal for this session:** Improve the business-case documentation and summarize all dated project work in the project log.
+- **Key prompts we gave Copilot:** Add and revise business-case text; review repository history and organize every work session under clear date headings.
+- **What worked:** Expanded the business-case content and replaced the partial, template-based work-session section with a complete date-separated summary of the project activity.
+- **What broke, and how we fixed it:** The original log did not include summaries for 2026-11-23, 2026-11-26, or 2026-11-27 and retained an unfinished template. The missing activity was reconstructed from the commit history and grouped by date.
+- **Committed?** pending — commit after the project-log update is reviewed
 
 ---
 
