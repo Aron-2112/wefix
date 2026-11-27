@@ -62,6 +62,10 @@ Keep this up to date as you go — a few lines per work session is enough. It's 
 
 Everything we wanted but faked or left out — real logins, a real database, payments, security, moderation, an app, staff, etc. For each one, say **why** it's needed and roughly **how hard or expensive** you think it would be.
 
+A real version would need all of those things. A real login, database, payment, security, and moderation system. On top of that the app could also use a review section where users can review each other (like Uber or Air BnB) which could help incentivize good behaviour.
+
+I do not think it would be difficult to integrate all of those things. I think we are at a point in time where those are pretty well optimized for various apps. I do think it would be expensive though. If I had to guess I would say everything would cost around $20,000 just to start up. These systems are also probably billed monthly/yearly as well so those would have to be factored in.
+
 | Feature we faked or skipped | Why a real company would need it | How hard / expensive? |
 |---|---|---|
 | | | |
@@ -69,5 +73,8 @@ Everything we wanted but faked or left out — real logins, a real database, pay
 ## Reflection (fill in at the end)
 
 1. What surprised you most about building software with AI?
+I am surprised how easy it is to build a template with AI. Also, making changes with AI is relatively easy but I found it frustrating due to how specific you need to be for good prompts.
 2. Which parts were easy, and which were hard? Why do you think that is?
+I think trying to make small, specific adjustments is hard. Especially so when talking about the theme and/or pictures that are added to the site. Having the best of both worlds would be ideal (building a template with AI and then having the skill/programs to make small changes to design layout yourself).
 3. If a competitor had the same AI tool, how long would it take them to copy your site?
+I think it could be done in a day if the competitor knew what they wanted and what they were doing. Unfortunately for this idea, this could be considered a (relatively) early adoptor for this type of business. A competitor with the know how could create something after learning what did and did not work with weFix.
