@@ -10,11 +10,13 @@ Solution: weFix connects local tool owners and borrowers. It allows owners to ea
 Revenue: The borrower pays an 8% service fee on each successful rental. A future subscription plan could offer premium placement and unlimited listings for tool lenders.
 
 
+
 ## 2. Where IT creates value
 
 Scale, distribution channels, and data are what I believe to be the most important concepts that apply to this idea.
 Regarding the value chain, all five parts play a role, but I would argue that operations, marketing/ sales and support are the most important. The operations part of the business needs to run smoothly and efficiently to ensure both sides of the market find value in the service and continue to use it. Marketing/sales is important because there needs to be early growth in the user base and then sustained growth of the brand so the platform can be used in different cities/towns and potentially even other countries.
 Scale is important because there needs to be a balance reached at the start to ensure that there are enough people on both sides of the market to start a successful app. Trying to go too big too quick could backfire and alienate customers. As mentioned above, the tool lenders are the most important market at the start and people should be incentivized to list their tools on weFix. If the app launches with enough customers on both sides of the market and the app is creating value to both sides, it should continue to grow as more people learn about it.
+
 
 
 ## 3. Network effects
@@ -26,6 +28,7 @@ For the tool owners, the extra value comes from more potential borrowers which, 
 The empty network problem could be solved by focusing on incentivizing tool lenders to sign up. For example, the first 100 tool lenders to sign up in a specific area/city could be given the Pro benefits of the website for 6 months. This would have to be done in major areas to create a base, but it would have potential to grow the tool lender group quickly, which would help the tool borrower side of the market because it would increase their options.
 
 
+
 ## 4. Can it be copied? (the moat question)
 
 The fact that the business is community led is rare and valuable when compared to the traditional model. Businesses like Air BnB and Turo are showing that people are willing to spend money on an option that bypasses the old method (taxi cabs, hotels) if it provides value in the form of currency or options. Tool rental businesses are not a new idea, and the brick-and-mortar stores have many of the same problems other traditional businesses struggle with (high overhead costs, reliance on certain brands, location issues).  An idea like this that uses a proven business model of community involvement could work if done correctly at the start.
@@ -35,12 +38,16 @@ Data, network, and brand would get stronger over time. As more people sign up th
 This app would not look to capitalize on the switching costs idea because for apps like this there is not a lot of downsides for users to switch. The main thing is functionality and the network itself.
 
 
+
 ## 5. Cloud and operations
 
-It would take a marketplace-based approach to run this for real. Like Air BnB, weFix is not a SaaS, PaaS, or IaaS. It is a marketplace that allows two distinct markets to interact with each other. WeFix collects a small fee for every successful tool rental meaning users would need to sign up with accurate information including their name, address, available tools, and banking information.
+It would take multiple systems running in parallel to start and maintain this idea. Wefix would be a PaaS for the users who paid monthly for the extra benefits. The login and customer information would likely be run through a SaaS program while the payments would be processed through a payment processor. A TPS could also be used to process successful tool returns and help log them to their respective account. This could tie into the review system which would likely be some sort of cloud-based IaaS program.
+If a provider went down or increased prices alternatives would have to be sourced. For increased costs, another option is to eat the extra cost or pass the cost onto the users which could affect the subscription rate.
+
 
 ## 6. Risks and ethics
 
 A tedious part of starting the app would be creating a policy for both sides of the market that gives them confidence in weFix. The tool lenders need confidence that weFix as a company will do everything they can to protect the assets and compensate them is something goes wrong during the rental process. The tool borrowers need confidence that they are not being overcharged to use certain tools, and they aren’t renting junk that is destined to break. 
 As far as the IT side goes, the site would have to have a certain level of protection due to the nature of the data that customers are entering (addresses, banking information, etc.). This could be achieved by creating an API for an app such as PayPal to be used. This would give the customers a level of familiarity with weFix while also giving legitimacy to the platform.
 
+I did not use generative AI for this section. All words/information are my own.

@@ -18,6 +18,8 @@ Keep this up to date as you go — a few lines per work session is enough. It's 
 - **What broke, and how we fixed it:** No lasting code failure was recorded during this date's work. The existing JavaScript and prototype structure were reviewed and the site name and theme were updated.
 - **Committed?** yes — `Initial commit`, `first version`, `added summary of changes to prject log`, and `changed site name and appearance`
 
+everything worked well in this session. It took a while for everything to load due to everything being created by scratch but it went relatively smoothly. Note: I did start this assignment before this date but I mistakenly installed Github copilot onto my laptop and I was working there without the template and files you provided. That was my mistake for not reading the instructions well.
+
 ### 2026-11-23 — Branding and pricing adjustments
 
 - **Goal for this session:** Correct and refine the product name, theme, and prototype pricing.
@@ -25,6 +27,8 @@ Keep this up to date as you go — a few lines per work session is enough. It's 
 - **What worked:** Updated the brand name and visual styling consistently across the main page, data, and stylesheets. Adjusted the displayed pricing information and associated prototype copy.
 - **What broke, and how we fixed it:** A misspelling was introduced during the site-name change. It was followed by a correction pass that updated the title and appearance across the affected files.
 - **Committed?** yes — `made a mistake typing in the new site name` and `changed the title, theme, and some pricing details of the site`
+
+Same as last session. Everything went well with the edits.
 
 ### 2026-11-25 — Live link and visual theme updates
 
@@ -34,6 +38,8 @@ Keep this up to date as you go — a few lines per work session is enough. It's 
 - **What broke, and how we fixed it:** `git pull --tags origin main` failed with `fatal: Need to specify how to reconcile divergent branches.` Git had detected divergent local and remote branches. This repository was configured with `pull.rebase=false` so future pulls use merge mode; the pull itself was not retried during the session.
 - **Committed?** yes — `Add live site link to project log`, `Changed theme and title`, a merge commit, and `changed theme and tried to fix errors with divergent branches`
 
+This sessions is where I started getting frustrated with the way copilot works. I am not expeienced enough to know what the issue was exactly and I hope it is fixed. This took some time because changes were not being saved.
+
 ### 2026-11-26 — Finalization and photo assets
 
 - **Goal for this session:** Finalize the page layout and replace placeholder imagery with project photographs.
@@ -41,6 +47,8 @@ Keep this up to date as you go — a few lines per work session is enough. It's 
 - **What worked:** Revised the homepage and supporting sections, adjusted styles, and added five image assets. Updated the project log and CSS to improve the final presentation.
 - **What broke, and how we fixed it:** No separate runtime failure was recorded in the commits. The finalization pass served as a visual refinement and asset-integration pass rather than a debugging session.
 - **Committed?** yes — `trying to finalize changes` and `changed photos on website`
+
+This is also where I grew frustrated with the changes copilot would make. It is difficult for me to get an optimal photo added to the website with the prompts I use. That is something that would likely get better with time but it was frustrating.
 
 ### 2026-11-27 — Business-case update and session-log summary
 
