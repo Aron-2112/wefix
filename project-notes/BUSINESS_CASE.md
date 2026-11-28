@@ -1,7 +1,5 @@
 # Business case
 
-Your prototype shows *what* the product looks like. This document explains *why* it could become a business. Answer in your own words and refer to course concepts by name. See the term project brief on Moodle for length and grading.
-
 ## 1. The idea
 
 Homeowners, renters, students, and DIY enthusiasts who need a specific tool for a project. Ideal for areas with a mix of college students, young couples who live on their own (apartment or house), and (likely) older, more established adults who have the tools and infrastructure to store them.
